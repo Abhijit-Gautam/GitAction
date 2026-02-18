@@ -5,7 +5,7 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-    - name: Run a greeting
+    -name: Run a greeting
       run: echo "CI PIPLELINE STARTED!!!"
 
    # - uses: actions/checkout@v4
